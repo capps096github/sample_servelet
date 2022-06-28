@@ -65,10 +65,7 @@ public class FormServlet extends HttpServlet {
         }
     }
 
-//    print function takes in a string
-    private void print(String s) {
-        System.out.println(s);
-    }
+
 
     private void createCookies(HttpServletRequest request, HttpServletResponse response) {
         // create cookie
